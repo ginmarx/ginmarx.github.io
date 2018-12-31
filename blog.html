@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blogger is Blogging</title>
+
+	<link rel="stylesheet" type="text/css" href="css/blogstyle.css">
+
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<script>
+		var beepOne = $("#beep-one")[0];
+$("#nav-one a")
+	.mouseenter(function() {
+		beepOne.play();
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		  $("#btn1").click(function(){
+		    alert("Sorry" + $("#test").text());
+		  });
+		  $("#btn2").click(function(){
+		    alert("Sorry" + $("#test").html());
+		  });
+		});
+	</script>
+
+</head>
+<body>
+
+	<nav class="header">My Blog</nav>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul id="nav-one" class="nav">
+				<audio preload="auto" id="beep-one">
+						<source src="beep.mp3"></source>
+						<source src="beep.ogg"></source>
+						Your browser isn't invited for super fun audio time.
+				</audio>
+				<li><a href="index.html">Home</a></li>
+				<li><a  href="blog.html">Culinary</a></li>
+				<li><a id="btn2" href="">Gaming</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="feedback-form-in-html/formpage.html">Feedback</a></li>
+			</ul>
+		</div>
+	</nav>	
+	
+	<p id="test" hidden="hidden">, this is a construction site! Come back another time.</p>
+
+	<br>
+	<div class="post">
+		<div class="block">
+			<h3><a href="cooking.html">COOKING</a></h3>
+			<img src="image/japan.gif" alt="cooking guy">
+			<p>
+				Cooking or cookery is the art, technology, science and craft of preparing food for consumption. Cooking techniques and ingredients vary widely across the world, from grilling food over an open fire to using electric stoves, to baking in various types of ovens, reflecting unique environmental, economic, and cultural traditions and trends...
+				<br>
+			</p>
+		</div>
+
+		<div class="block">
+			<h3><a href="history.html">HISTORY OF COOKING</a></h3>
+			<img src="image/sidebar.png" alt="confuse girl" width="150px" height="auto">
+			<p>
+				Phylogenetic analysis suggests that human ancestors may have invented cooking as far back as 1.8 million to 2.3 million years ago. Re-analysis of burnt bone fragments and plant ashes from the Wonderwerk Cave, South Africa, has provided evidence supporting control of fire by early humans there by 1 million years ago...
+				<br>
+			</p>
+		</div>
+
+		<div class="block">
+			<h3><a href="methods.html">METHODS OF COOKING</a></h3>
+			<img src="image/meat.gif" alt="meat">
+			<p>
+				There are very many methods of cooking, most of which have been known since antiquity. These include baking, roasting, frying, grilling, barbecuing, smoking, boiling, steaming and braising...<br>
+				<a href="methods.html"><i>Video</i></a>
+				<br>
+				
+			</p>
+		</div>
+	</div>
+
+	<div class="button">
+			<p class="t1">Contact me at:</p>
+			<a class="b1" href="mailto:han.doanquang@hcmut.edu.vn?subject=Title">Email</a> <!--1 điểm-->
+			<a class="b2" href="http://facebook.com/meovanden" rel="noopener noreferrer" target="_blank">Facebook</a>
+			<p class="t1">Join my group chat</p>
+			<a class="b3" href="https://discord.gg/Ufc6N8v">Discord</a> 	
+	</div>
+	
+
+	<div class="arrow-up"> <!--head to top button-->
+		<button onclick="topFunction()" id="arrow-up" ><img src="https://cdn0.iconfinder.com/data/icons/trends-1/256/icon-7.png" width="35px" height="auto"></button>
+	</div>
+
+
+	<div class="comt"> <!--comment section-->
+		<p>What do you think?</p>
+		<form action="https://formspree.io/ginmarx.gm@email.com" method="post">
+			<div>
+				<label>Enter your name:</label><br>
+				<input type="text" name="name" placeholder="First Name" id="name">
+			</div>
+		
+			<div>	
+				<label>Comment</label><br>
+				<textarea name="comment" id="comment"></textarea>
+			</div>
+			<input type="submit" name="submit" value="submit" >
+		</form>
+		<p>Comment Section below</p>
+	</div>
+
+<form action="https://formspree.io/ginmarx.gm@email.com" method="POST" />
+<input type="text" name="name">
+
+	
+
+<br>
+	<footer id="main-footer"> 
+		<p>Copyright &copy 2018; emptypocketo</p>
+	</footer>
+</body>
+</html>

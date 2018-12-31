@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post</title>
+
+	<link rel="stylesheet" type="text/css" href="css/poststyle.css">
+
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<script>
+		var beepOne = $("#beep-one")[0];
+$("#nav-one a")
+	.mouseenter(function() {
+		beepOne.play();
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		  $("#btn1").click(function(){
+		    alert("Sorry" + $("#test").text());
+		  });
+		  $("#btn2").click(function(){
+		    alert("Sorry" + $("#test").html());
+		  });
+		});
+	</script>
+
+</head>
+<body>
+
+	<nav class="header">Post</nav>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+					<a href="blog.html">Blog</a>
+					<div class="dropdown-content">
+						<a  href="blog.html">Culinary</a>
+						<a id="btn2" href="">Gaming</a>
+					</div>
+				</li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="feedback-form-in-html/formpage.html">Feedback</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<p id="test" hidden="hidden">, this is a construction site! Come back another time.</p>
+
+	<br>
+
+	<div class="main-post">
+		<h1>COOKING</h1>
+		<small>Posted by emptypocketo</small>
+		<p>
+			Cooking or cookery is the art, technology, science and craft of preparing food for consumption. Cooking techniques and ingredients vary widely across the world, from grilling food over an open fire to using electric stoves, to baking in various types of ovens, reflecting unique environmental, economic, and cultural traditions and trends. The ways or types of cooking also depend on the skill and type of training an individual cook has. Cooking is done both by people in their own dwellings and by professional cooks and chefs in restaurants and other food establishments. Cooking can also occur through chemical reactions without the presence of heat, such as in ceviche, a traditional South American dish where fish is cooked with the acids in lemon or lime juice.<br><br>
+
+			Preparing food with heat or fire is an activity unique to humans. It may have started around 2 million years ago, though archaeological evidence for it reaches no more than 1 million years ago.<br><br>
+
+			The expansion of agriculture, commerce, trade, and transportation between civilizations in different regions offered cooks many new ingredients. New inventions and technologies, such as the invention of pottery for holding and boiling water, expanded cooking techniques. A few restaurants use centrifuges to enhance the flavor and consistency of the dish served.			
+		</p>
+		<br>
+		<img src="image/jake.gif" alt="a cooking dog"><br><br>
+		
+		
+		<small>Source: <i>the internet</i></small>
+	</div>
+<hr>
+	<br>
+	<div class="reblock">
+		<div class="block">
+			<h3>HISTORY OF COOKING</h3>
+			<p>
+				Phylogenetic analysis suggests that human ancestors may have invented cooking as far back as 1.8 million to 2.3 million years ago....
+				<br>
+				<a href="history.html">Click to read more...</a>
+			</p>
+		</div>
+
+		<div class="block">
+			<h3>METHODS OF COOKING</h3>
+			<p>
+				There are very many methods of cooking, most of which have been known since antiquity. These include baking, roasting, frying, grilling, barbecuing, smoking, boiling, steaming and braising. A more recent innovation is microwaving....
+				<br>
+				<a href="methods.html">Click to read more...</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="button">
+			<p class="t1">Contact me at:</p>
+			<a class="b1" href="mailto:han.doanquang@hcmut.edu.vn?subject=Title">Email</a><br> <!--1 điểm-->
+			<a class="b2" href="http://facebook.com/meovanden" rel="noopener noreferrer" target="_blank">Facebook</a><br>
+			<p class="t1">Join my group chat</p>
+			<a class="b3" href="https://discord.gg/Ufc6N8v">Discord</a> 	
+	</div>
+	
+	<div class="backbutt">
+		<a href="blog.html">Back to main Blog</a>
+	</div>
+
+	<div class="arrow-up"> <!--head to top button-->
+		<button onclick="topFunction()" id="arrow-up" ><img src="https://cdn0.iconfinder.com/data/icons/trends-1/256/icon-7.png" width="35px" height="auto"></button>
+	</div>
+
+	<div class="clr">
+	</div>
+
+	
+
+<br>
+	<footer id="main-footer"> 
+		<p>Copyright &copy 2018; emptypocketo</p>
+	</footer>
+</body>
+</html>

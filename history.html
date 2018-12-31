@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post</title>
+
+	<link rel="stylesheet" type="text/css" href="css/poststyle.css">
+
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<script>
+		var beepOne = $("#beep-one")[0];
+$("#nav-one a")
+	.mouseenter(function() {
+		beepOne.play();
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		  $("#btn1").click(function(){
+		    alert("Sorry" + $("#test").text());
+		  });
+		  $("#btn2").click(function(){
+		    alert("Sorry" + $("#test").html());
+		  });
+		});
+	</script>
+
+</head>
+<body>
+
+	<nav class="header">Post</nav>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+					<a href="blog.html">Blog</a>
+					<div class="dropdown-content">
+						<a  href="blog.html">Culinary</a>
+						<a id="btn2" href="">Gaming</a>
+					</div>
+				</li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="feedback-form-in-html/formpage.html">Feedback</a></li>
+			</ul>
+		</div>
+	</nav>	
+	
+	<p id="test" hidden="hidden">, this is a construction site! Come back another time.</p>
+
+	<br>
+
+	<div class="main-post">
+		<h1>HISTORY OF COOKING</h1>
+		<small>Posted by emptypocketo</small>
+		<p>
+			Phylogenetic analysis suggests that human ancestors may have invented cooking as far back as 1.8 million to 2.3 million years ago.[2] Re-analysis of burnt bone fragments and plant ashes from the Wonderwerk Cave, South Africa, has provided evidence supporting control of fire by early humans there by 1 million years ago.[3] There is evidence that Homo erectus was cooking their food as early as 500,000 years ago.[4] Evidence for the controlled use of fire by Homo erectus beginning some 400,000 years ago has wide scholarly support.[5][6] Archaeological evidence from 300,000 years ago,[7] in the form of ancient hearths, earth ovens, burnt animal bones, and flint, are found across Europe and the Middle East. Anthropologists think that widespread cooking fires began about 250,000 years ago, when hearths started appearing.[8]<br><br>
+
+			Recently, the earliest hearths have been reported to be at least 790,000 years old.[9]<br><br>
+
+
+			Historical oven baking, in a painting by Jean-François Millet, 1854
+			Communication between the Old World and the New World in the Columbian Exchange influenced the history of cooking. The movement of foods across the Atlantic, from the New World, such as potatoes, tomatoes, maize, yams, beans, bell pepper, chili pepper, vanilla, pumpkin, cassava, avocado, peanut, pecan, cashew, pineapple, blueberry, sunflower, chocolate, gourds, and squash, had a profound effect on Old World cooking. The movement of foods across the Atlantic, from the Old World, such as cattle, sheep, pigs, wheat, oats, barley, rice, apples, pears, peas, chickpeas, green beans, mustard, and carrots, similarly changed New World cooking.[10]<br><br>
+
+			In the seventeenth and eighteenth centuries, food was a classic marker of identity in Europe. In the nineteenth-century "Age of Nationalism" cuisine became a defining symbol of national identity.<br><br>
+
+			The Industrial Revolution brought mass-production, mass-marketing and standardization of food. Factories processed, preserved, canned, and packaged a wide variety of foods, and processed cereals quickly became a defining feature of the American breakfast.[11] In the 1920s, freezing methods, cafeterias and fast food restaurants emerged.<br><br>
+
+			Along with changes in food, starting early in the 20th century, governments have issued nutrition guidelines, leading to the food pyramid[12] (introduced in Sweden in 1974). The 1916 "Food For Young Children" became the first USDA guide to give specific dietary guidelines. Updated in the 1920s, these guides gave shopping suggestions for different-sized families along with a Depression Era revision which included four cost levels. In 1943, the USDA created the "Basic Seven" chart to make sure that people got the recommended nutrients. It included the first-ever Recommended Daily Allowances from the National Academy of Sciences. In 1956, the "Essentials of an Adequate Diet" brought recommendations which cut the number of groups that American school children would learn about down to four. In 1979, a guide called "Food" addressed the link between too much of certain foods and chronic diseases, but added "fats, oils, and sweets" to the four basic food groups.<br><br>
+		</p>
+		
+		<small>Source: <i>the internet</i></small>
+	</div>
+<hr>
+	<br>
+	<div class="reblock">
+		<div class="block">
+			<h3>COOKING</h3>
+			<p>
+				Cooking or cookery is the art, technology, science and craft of preparing food for consumption. Cooking techniques and ingredients vary widely across the world, from grilling food over an open fire to using electric stoves, to baking in various types of ovens, reflecting unique environmental, economic, and cultural traditions and trends...
+				<br>
+				<a href="cooking.html">Click to read more...</a>
+			</p>
+		</div>
+
+		<div class="block">
+			<h3>METHODS OF COOKING</h3>
+			<p>
+				There are very many methods of cooking, most of which have been known since antiquity. These include baking, roasting, frying, grilling, barbecuing, smoking, boiling, steaming and braising. A more recent innovation is microwaving....
+				<br>
+				<a href="methods.html">Click to read more...</a>
+			</p>
+		</div>
+
+
+	<div class="button">
+			<p class="t1">Contact me at:</p>
+			<a class="b1" href="mailto:han.doanquang@hcmut.edu.vn?subject=Title">Email</a><br> <!--1 điểm-->
+			<a class="b2" href="http://facebook.com/meovanden" rel="noopener noreferrer" target="_blank">Facebook</a><br>
+			<p class="t1">Join my group chat</p>
+			<a class="b3" href="https://discord.gg/Ufc6N8v">Discord</a> 	
+	</div>
+	
+	<div class="backbutt">
+		<a href="blog.html">Back to main Blog</a>
+	</div>
+
+	<div class="arrow-up"> <!--head to top button-->
+		<button onclick="topFunction()" id="arrow-up" ><img src="https://cdn0.iconfinder.com/data/icons/trends-1/256/icon-7.png" width="35px" height="auto"></button>
+	</div>
+
+
+
+
+
+	
+<br>
+	<footer id="main-footer"> 
+		<p>Copyright &copy 2018; emptypocketo</p>
+	</footer>
+</body>
+</html>

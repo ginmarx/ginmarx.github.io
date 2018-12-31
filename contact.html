@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About me!</title>
+	<link rel="stylesheet" type="text/css" href="css/contactstyle.css">
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<script>
+		var beepOne = $("#beep-one")[0];
+$("#nav-one a")
+	.mouseenter(function() {
+		beepOne.play();
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		  $("#btn1").click(function(){
+		    alert("Sorry" + $("#test").text());
+		  });
+		  $("#btn2").click(function(){
+		    alert("Sorry" + $("#test").html());
+		  });
+		});
+	</script>
+</head>
+<body>
+
+	<nav class="header">HELLO!</nav></nav>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+					<a href="blog.html">Blog</a>
+					<div class="dropdown-content">
+						<a  href="blog.html">Culinary</a>
+						<a id="btn2" href="">Gaming</a>
+					</div>
+				</li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="feedback-form-in-html/formpage.html">Feedback</a></li>
+			</ul>
+		</div>
+	</nav>
+	<p id="test" hidden="hidden">, this is a construction site! Come back another time.</p>
+	<img class="avatar" src="image/DSC_0825.jpg">
+
+	<div class="introduction">
+		<h2>ĐOÀN QUANG MỸ HÂN</h2>
+		<p>Sinh viên Khoa Ứng dụng, chuyên ngành Vật Lỹ Kĩ Thuật</p>
+		<p>Đại học Bách Khoa Hồ Chí Minh</p>
+	</div>
+
+	<div class="contact">
+			<p >Contact me at:</p>
+			<a href="mailto:han.doanquang@hcmut.edu.vn?subject=Title">Email</a>  <!--1 điểm-->
+			<br>
+			<a class="b2" href="http://facebook.com/meovanden" rel="noopener noreferrer" target="_blank">Facebook</a>
+	</div>
+
+	<br>
+	<footer id="main-footer">  <!--1 điểm-->
+		<p>Copyright &copy 2018; emptypocketo</p>
+	</footer>
+</body>
+</html>
