@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Righteous', cursive;
+	margin: 0;
+	font-size: 20px;
+	line-height: 1.6em;
+}
+
+a{
+	text-decoration-line: none;
+}
+li{
+	list-style: none;
+}
+#showcase{
+	background-image: url(https://media.boingboing.net/wp-content/uploads/2015/09/coffee_in_rain_by_kirokaze-d98qb8z.gif);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+}
+
+#showcase .main-footer{
+	bottom: 5px;
+	position: fixed;
+	color: white;
+}
+
+#showcase h1{
+	font-size: 70px;
+	font-family: 'Staatliches', cursive;
+	line-height: 1.2em;
+	color: coral;
+	position: fixed;
+	bottom: 20px;
+}
+
+#showcase p{
+	font-size: 20px;
+	text-align: center;
+}
+#showcase a{
+	color: white;
+	border: 1px solid white;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+#showcase a:hover{
+	color: coral;
+	background: white;
+	border: 1px solid white;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+#showcase .container{
+	font-size: 18px;
+	line-height: 3em;
+	margin-top:40px;
+	font-family: 'Righteous', cursive;
+}
+
+li a, .dropbtn {
+  	color: white;
+	border: 1px solid white;
+	border-radius: 10px;
+	font-family: 'Righteous', cursive;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  	color: coral;
+	background: white;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+li.dropdown {
+  display: inline-block ;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 20px;
+  min-height:5px;
+  box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: coral}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+audio { 
+   display:none;
+}
