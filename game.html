@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A GUIDE TO</title>
+
+	<link rel="stylesheet" type="text/css" href="css/gamestyle.css">
+
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<script>
+		var beepOne = $("#beep-one")[0];
+$("#nav-one a")
+	.mouseenter(function() {
+		beepOne.play();
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		  $("#btn1").click(function(){
+		    alert("Sorry" + $("#test").text());
+		  });
+		  $("#btn2").click(function(){
+		    alert("Sorry" + $("#test").html());
+		  });
+		});
+	</script>
+
+</head>
+<body>
+
+	<p id="test" hidden="hidden">, this is a construction site! Come back another time.</p>
+	
+	<nav class="header">THE OVERWATCH GUIDE TO</nav></nav>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+					<a href="#">Blog</a>
+					<div class="dropdown-content">
+						<a  href="blog.html">Culinary</a>
+						<a  href="game.html">Overwatch</a>
+					</div>
+				</li>
+				<li><a id="btn2" href="">Construction site</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="comt"> <!--comment section-->
+		<p>Comment:</p>
+		<form action="https://formspree.io/ginmarx.gm@gmail.com" method="post">
+			<div>
+				<label>Enter your name:</label><br>
+				<input type="text" name="name" placeholder="First Name" id="name">
+			</div>
+		
+			<div>	
+				<label>Comment</label><br>
+				<textarea name="comment" id="comment"></textarea>
+			</div>
+			<input type="submit" name="submit" value="submit" >
+		</form>
+	</div>
+
+	<div class="backbutt">
+		<a href="index.html">Back to Home</a>
+	</div>
+
+	<section class="post">
+		<h1><b>CƠ BẢN</b></h1>
+		<div class="block">
+			<H3>Tướng</H3>
+			<p>
+				Overwatch hiện tại tổng cộng có 28 tướng. Bao gồm 4 role cơ bản và các skill đa dạng khác nhau.
+				<img src="image/choose.jpg">
+			</p>
+		</div>
+		<div class="block"> 
+			<h3>Role</h3>
+			Là vai trò của một player trong một game
+			Overwatch chia các hero thành 4 role: <br>
+			Tank: máu nhiều, giáp lớp. Ngoài việc chịu damg cho đồng đội thì các tank còn có vai trò intiate combat (khởi đầu giao tranh)<br>
+			Dmg: khỏi nói nhiều, damg lớn, máu thường, vai trò chính là tạo damg và kết liễu đối phương<br>
+			Support: chịu trách nhiệm hỗ trợ team và hồi máu, các support còn có thể chịu damg thay cho các hero khác do có khả năng tự hồi máu. Tuy nhiên, chiến thuật tốt nhất cho một người chơi support là ĐỪNG CÓ CHẾT :))<br><br>
+
+			Tuy nhiên cần chú ý rằng dù một vài hero được xếp ở lớp Dmg, vẫn không thể sử dụng như một hero thuần gây sát thương do dmg thấp và những skill khác của hero đó đáng giá hơn. Một ví dụ điển hình là Sombra, mình sẽ nói về nhân vật này sau.
+		</div>
+
+		<div class="block">
+			<h3>Một số map:</h3>
+			<H4>Hanamura</H4>
+				<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/757a50c495804915a99d924f22497e52/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+				    <a href="https://sketchfab.com/models/757a50c495804915a99d924f22497e52?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Hanamura</a>
+				    by <a href="https://sketchfab.com/asimshrestha2?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Asim Shrestha</a>
+				    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+				</p>
+			</div>
+
+			<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/19036559de314ba7828e22bcf4f00812/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+			<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+			    <a href="https://sketchfab.com/models/19036559de314ba7828e22bcf4f00812?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Hanamura&#39;s castle</a>
+			    by <a href="https://sketchfab.com/jyrenn?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">jyrenn</a>
+			    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+			</p>
+			</div>
+
+			<h4>Illios</h4>
+				<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/1236ee1ef4f849be9a76865e36a2243a/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+				    <a href="https://sketchfab.com/models/1236ee1ef4f849be9a76865e36a2243a?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Ilios</a>
+				    by <a href="https://sketchfab.com/sundai?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">sundai</a>
+				    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+				</p>
+			</div>
+			<h4>Dorado</h4>
+				<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/5674e038f1d14c168153505a1bf31bc6/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+				    <a href="https://sketchfab.com/models/5674e038f1d14c168153505a1bf31bc6?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Dorado Fan Art</a>
+				    by <a href="https://sketchfab.com/lianadc?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">lianadc</a>
+				    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+				</p>
+			</div>
+		</div>
+	</section>
+<hr>
+	<footer id="main-footer"> 
+		<p>Copyright &copy 2018; emptypocketo</p>
+	</footer>
+</body>
+</html>
