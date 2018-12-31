@@ -111,3 +111,10 @@ li.dropdown {
 audio { 
    display:none;
 }
+
+.note{
+	color: coral;
+	font-size: 10px;
+	font-family: courier;
+	padding: 15px;
+}
