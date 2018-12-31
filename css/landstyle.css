@@ -60,7 +60,7 @@ li{
 
 #showcase .container{
 	font-size: 18px;
-	line-height: 3em;
+	line-height: 1.5em;
 	margin-top:40px;
 	font-family: 'Righteous', cursive;
 }
@@ -90,6 +90,7 @@ li.dropdown {
   min-height:5px;
   box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 0;
+  transition: width 2s, height 2s;
 }
 
 .dropdown-content a {
@@ -99,7 +100,9 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: coral}
+.dropdown-content a:hover {
+	background-color: coral
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
