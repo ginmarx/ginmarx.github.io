@@ -101,7 +101,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-	background-color: coral;
+	background-color: coral
 }
 
 .dropdown:hover .dropdown-content {
